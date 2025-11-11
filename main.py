@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 
-# 1. Class: Person (Abstract)
 class Person(ABC):
 
     def __init__(self, name, age, email):
@@ -107,4 +106,5 @@ print("\n--- Attempting to set an invalid GPA ---")
 student1.set_gpa(5.0)
 
 print("\n--- Displaying Ahmed's info after update ---")
+
 student1.display_info()
